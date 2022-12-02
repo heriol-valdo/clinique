@@ -1,0 +1,351 @@
+/* Write your custom CSS here */
+.img-xs{
+    width: 32px !important;
+    height: 32px !important;
+}
+.img-sm{
+    width: 40px !important;
+    height: 40px !important;
+}
+.img-l{
+    width: 120px !important;
+    height: 120px !important;
+}
+.imgSlide{
+    width: 200px !important;
+    height: 100px !important;
+}
+.border{
+    border: 1px solid #eee;
+}
+.black{
+    background: #121212 !important;
+}
+.black h3, .search-form, .tasks li {
+    border-bottom: 1px solid #2A2A2A;
+}
+
+.black h3 {
+    font-size: 18px;
+    padding: 20px 0 0 0;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+    height: 60px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.rights{
+    float: right !important;
+    padding-left: 10px !important;
+}
+.til{
+    font-size: 17px !important;
+    padding-bottom: 15px;
+    margin: 10px 0 10px 0 !important;
+    border-bottom: 2px solid #eee;
+}
+.chat .chat-item {
+    padding: 5px !important;
+}
+.chat .chat-item .chat-message {
+    max-width: 55% !important;
+}
+.cd-timeline-content {
+    background: transparent !important;
+    border: 1px solid #2A2A2A !important;
+    padding: 1px 15px 1px 15px !important;
+}
+td{
+    vertical-align: middle !important;
+}
+
+/*.ms-list{
+    background: #121212;
+    border: 1px solid #2A2A2A !important;
+}
+.ms-container .ms-selectable li.ms-elem-selectable, .ms-container .ms-selection li.ms-elem-selection{
+    border-bottom: 1px #2A2A2A solid !important;
+}*/
+.ms-container .ms-selectable, .ms-container .ms-selection{
+    background: transparent !important;
+}
+.bootstrap-tagsinput input{
+    border: none !important;
+    width: 40% !important;
+}
+.divBox{
+    border: 4px outset rgba(0,0,0,0.1) !important;
+    -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.1) !important;
+    -moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.1) !important;
+}
+.page-inner{
+    background: #e9edf2 !important;
+}
+.img-lg{
+    height: 100px;
+    width: 100px;
+}
+.img-sl{
+    height: 15px;
+    width: 15px;
+}
+.modal form .modal-footer .btn-warning{
+    float: left;
+}
+.modal form .modal-footer .btn-default,.panel .panel-body form .btn-default{
+    background: #00008B;
+    border: 1px solid #00008B;
+    color: #ffffff;
+    font-weight: bold;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+    background: #00008B !important;
+    border-color: #00008B !important;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+    color: #ffffff !important;
+}
+.alerterForm{
+    margin: 20px;
+}
+.mainColor,label b{
+    color: #00008B !important;
+}
+.color-white{
+    color: #ffffff !important;
+}
+.panel-control a i.text-success{
+    color: #00008B !important;
+    font-weight: bolder;
+}
+.sidebar-header,.bgPrimary{
+    background: #00008B !important;
+}
+.bgPrimaryDark{
+    background: #00004A !important;
+}
+.btn-warning {
+    color: #000;
+    background-color: #F0F8FF;
+    border-color: #000;
+}
+.btn-warning:hover {
+    color: #ffffff !important;
+    background-color: #000 !important;
+    border-color: #F0F8FF !important;
+}
+.alertify .ajs-footer .ajs-buttons .ajs-button.ajs-ok,.label-dangers{
+    background: #00008B !important;
+    color: #00008B !important;
+    border: 1px solid #00008B !important;
+}
+.label-dangers{
+    background: #ffffff !important;
+    color: #00008B !important;
+    border: 1px dotted #00008B !important;
+}
+.label-warning{
+    background: #ffffff !important;
+    color: #00004A !important;
+    border: 1px solid #00004A !important;
+}
+.label-success{
+    background: #00009C !important;
+    color: #ffffff !important;
+    border: 1px solid #00009C !important;
+}
+.alertify .ajs-footer .ajs-buttons .ajs-button.ajs-cancel{
+    background: #F0F8FF;
+    color: #000;
+    border: 1px solid #000;
+}
+.modal form .modal-footer .btn-default,.btn-plus{
+    background: #ffffff;
+    border: 2px solid #00008B;
+    color: #00008B;
+    font-weight: bolder;
+}
+.modal form .modal-footer .btn-default:hover,.btn-plus:hover{
+    background: #00008B !important;
+    border: 2px solid lightgray !important;
+    color: #ffffff !important;
+    font-weight: bolder;
+}
+form .btn-default:hover {
+    color: #00008B !important;
+    background-color: #ffffff !important;
+    border-color: #00008B !important;
+}
+.none{display: none}
+.fieldset legend{
+    padding: 0 10px !important;
+    font-size: 20px !important;
+    font-style: italic;
+    color: #00008B !important;
+    margin: auto;
+    width: auto;
+    border: 0;
+}
+.fieldset{
+    border: 2px solid #00008B;
+    padding: 10px !important;
+}
+.noBorder{border: 0 !important}
+.topBotBorder{
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.bBorder{
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-bottom: 1px solid #ddd;
+    border-right: 0 !important;
+}
+.tBorder{
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+    border-top: 1px solid #ddd;
+    border-right: 0 !important;
+}
+.blBorder{
+    border-top: 0 !important;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 0 !important;
+}
+.lBorder{
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 1px solid #ddd;
+    border-right: 0 !important;
+}
+.botBorder{
+    border-bottom: 0 !important;
+}
+.topBorder{
+    border-top: 0 !important;
+}
+.steps{
+    padding: 30px 20px;
+}
+.steps .fieldset{
+    padding: 20px;
+}
+.style-1 del{
+    color: #ff0000;
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+}
+.style-1 ins{
+    color: green;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 1em 1em 1em .2em;
+}
+.style-1 del:before{
+    content: " ";
+    display: block;
+    width: 100%;
+    border-top: 1px solid #ff0000;
+    height: 9px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(-7deg);
+}
+.grid {
+    background: #FFFFFF;
+}
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.grid-sizer,
+.grid-item {
+    width: 33.333%;
+    border: 1px solid #eeeeee;
+}
+
+.grid-item {
+    float: left;
+}
+
+.grid-item img {
+    display: block;
+    width: 100%;
+}
+.grid-item figure {
+    background: #1abc9c;
+}
+.grid-item figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.grid-item figure:hover img {
+    opacity: .5;
+}
+.grid-item figure::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255,255,255,.2);
+    border-radius: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.grid-item figure:hover::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+
+.grid-item .btn, .btn-xxs {
+    font-size: 9px !important;
+    padding: 2px 5px !important;
+    border-radius: 5px !important;
+}
+.img-ld{
+    height: 70px;
+    width: 100%;
+}
+.img-ld1{
+    height: 90px;
+    width: 100%;
+}
+.img-sd{
+    height: 40px;
+    width: 40px;
+}
+.color-primary{
+    color: #00009C;
+}
+.badge{
+    padding: 4.5px 6px !important;
+}
+.info-box .info-box-icon i {
+    font-size: 21px;
+}
+.panel .panel-body {
+    padding: 15px;
+}
+.info-box .info-box-stats span.info-box-title {
+    font-size: 11px;
+    color: #000000;
+}
+.info-box .info-box-stats p {
+    font-size: 18px;
+}
+.text-black {
+    color: #000000 !important
+}
+
+
